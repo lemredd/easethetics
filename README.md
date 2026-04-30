@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
   <img align="center" src="https://app.easethetics.ph/static/image/EasetheticsLogoWhite.png" alt="Easethetics Logo" width="200"/>
-</h1>
+</p>
 <p align="center">
   <strong>Clinic Management SaaS for Aesthetics & Beauty Clinics</strong>
 </p>
