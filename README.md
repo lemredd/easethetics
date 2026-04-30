@@ -21,6 +21,10 @@
 * Infra: AWS RDS (MySQL), Redis
 * Frontend: Next.js, TypeScript, Tailwind
 
+## Easethetics (Enterprise SaaS)
+
+**Clinic management platform for aesthetics & beauty clinics (appointments, POS, EMR, marketing, e-commerce).**
+
 ## Easebook
 
 **User-facing appointment booking system**
