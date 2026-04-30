@@ -4,101 +4,45 @@
 <p align="center">
   <strong>Clinic Management SaaS for Aesthetics & Beauty Clinics</strong>
 </p>
-<p align="center">
-  <strong>NOTE:</strong> This repository serves only as proof of my contributions with the project.
-</p>
 
-## Main System
-### Features
 
-| Module | Description |
-|--------|-------------|
-| **Appointments** | Booking, scheduling, short links via Easebook |
-| **Patient Charts** | Medical records, prescriptions, attachments |
-| **Point of Sale** | Transactions, sessions, payments, discounts, gift events |
-| **Inventory** | Products, stock groups, batch tracking, supplier management |
-| **Services** | Service catalog, categories, consumables, commissions |
-| **Memberships** | Tiers, points accrual, packages, spending tracking |
-| **Employees** | Attendance, schedules, leave, commission tracking |
-| **Accounting** | Purchases, expenses, sales reports |
-| **Invoicing** | Subscriptions, billing, payment transactions |
-| **Promotions** | Buy X get Y deals, time-limited discounts |
-| **Marketing** | SMS & email campaigns |
-| **E-Commerce** | Easemart storefront, cart, delivery, returns |
-| **Support** | Ticketing system, live chat |
-| **Mobile API** | GraphQL for Easelife/Easebook apps, FCM push notifications |
+### Key Contributions
 
-### Tech Stack
-```
-Backend      Django · Graphene (GraphQL) · DRF (REST)
-Database     MySQL (AWS RDS) · SQLite (development)
-Cache        Redis
-Queue        Celery + RabbitMQ
-Frontend     Django Templates · Tailwind CSS · jQuery · TypeScript
-```
+* **Built and owned Easebook**, a Next.js-based appointment booking system with dynamic shortlink routing, multi-step forms, and API integrations (REST + GraphQL)
+* Designed **end-to-end booking flow**, including patient validation, consent handling, and real-time availability
+* Improved **marketing campaign pipeline (SMS/email)** by fixing queue state inconsistencies and enhancing analytics accuracy
+* Collaborated on **GraphQL API design and integration** for mobile apps, improving data fetching efficiency
+* Worked cross-functionally with marketing and mobile teams to deliver **client-requested features and bug fixes**
+* Integrated **AI workflows via n8n**, increasing marketing lead generation by **~10%**
+
+### Technical Highlights
+
+* Backend: Django, GraphQL (Graphene), Celery + RabbitMQ
+* Infra: AWS RDS (MySQL), Redis
+* Frontend: Next.js, TypeScript, Tailwind
 
 ## Easebook
-Convenient appointment scheduling for end users.
 
-### Features
+**User-facing appointment booking system**
 
-| Sub-feature | Description |
-|-------------|-------------|
-| **Booking Form** | Multi-step appointment booking form with schedule and patient information |
-| **Form Validation** | Zod schema validation for all form fields |
-| **User Experience** | Multi-step form with smooth transitions |
-| **Existing Patient Handling** | Existing patient detection and confirmation dialog |
-| **Consent Management** | Comprehensive consent information and agreement |
-| **Appointment Success** | Success page with appointment details |
-| **Clinic Information** | Dynamic clinic and branch display |
-| **API Integration** | REST and GraphQL API proxy endpoints |
-| **Data Transformation** | Form data transformation for API submission |
-| **Error Handling** | Comprehensive error handling and user feedback |
-| **Accessibility** | Accessible form controls and UI elements |
-| **Internationalization** | Basic date/time localization support |
-| **State Management** | React hook form integration |
-| **Routing** | Dynamic shortlink-based routing |
-| **Analytics** | Basic appointment tracking |
+* Built a **multi-step booking UI** with validation (React Hook Form + Zod)
+* Implemented **shortlink-based routing system** for clinic-specific booking pages
+* Designed **API proxy layer** to unify REST + GraphQL interactions
+* Handled **edge cases** (existing patients, consent flows, error recovery)
+* Added **basic analytics tracking** for booking events
 
-### Tech Stack
-```
-Frontend    Next.js · Tanstack Query · shadcn/ui · axios
-```
+## Easesupport
 
-### Easesupport
-In-house web application to support business clients with concerns.
+* Contributed to internal support platform with focus on:
 
-### Features
-| Sub-feature | Description |
-|-------------|-------------|
-| **Authentication** | Secure user authentication and session management |
-| **Dashboard** | Comprehensive overview and analytics |
-| **Clinic Management** | Complete clinic administration |
-| **Ticket System** | Customer support ticket management |
-| **Chat System** | Real-time communication features |
-| **Easelife Travel** | Travel package management |
-| **Easemart E-commerce** | Online store management |
-| **Invoice Management** | Comprehensive invoicing system |
-| **User Management** | User administration features |
-| **Advertisement Management** | Marketing and promotion tools |
-| **Financial Management** | Comprehensive financial tools |
-| **Reporting** | Advanced reporting capabilities |
-| **Real-time Features** | Live updates and notifications |
-| **API Integration** | Backend service integration |
-| **UI Components** | Reusable interface elements |
-| **Responsive Design** | Mobile and desktop compatibility |
-| **Accessibility** | Inclusive design features |
-| **Internationalization** | Multi-language support |
-| **State Management** | Advanced state handling |
-| **Security** | Comprehensive security measures |
-| **Performance** | Optimized performance |
-| **Error Handling** | Robust error management |
-| **Analytics** | Usage tracking and insights |
+  * ticketing and real-time chat features
+  * dashboard and reporting improvements
+  * performance and error handling enhancements
 
-## Overall Contributions
-- Implemented Easebook
-- Streamlined SMS and email campaign sending processes, enhancing accuracy in queue status and analytics.
-- Collaborated with developer teammates to improve user interface, gaining massive user engagement.
-- Collaborated with mobile developers in implementing and integrating GraphQL API for convenient data fetching.
-- Supported with client feature requests and resolving bugs (Collaboration with marketing team).
-- Integrated AI with n8n, boosting marketing leads by 10%.
+
+## Screens
+<img width="1194" height="834" alt="image" src="https://github.com/user-attachments/assets/808a57ff-7c3b-491b-8e46-437dbc5bd728" />
+<br>
+<img width="1681" height="1021" alt="image" src="https://github.com/user-attachments/assets/22e0f517-6d4c-49a4-a272-f76cdb84bf1a" />
+<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2556f2f5-24a1-4f45-b0de-dd94d184db42" />
