@@ -24,6 +24,11 @@
 
 **Clinic management platform for aesthetics & beauty clinics (appointments, POS, EMR, marketing, e-commerce).**
 
+* Contributed across core modules: **Appointments, POS, Inventory, Patient Records, and Employee Management**
+* Led development of **SMS/Email Marketing system**, including quota management, credit rollover logic, and campaign pipeline reliability
+* Built **marketing credit system** with monthly rollover and promo credit support to prevent quota loss on reset
+* Improved **appointment scheduling workflows**, handling availability logic, booking validations, and edge cases
+
 ## Easebook
 
 **User-facing appointment booking system**
