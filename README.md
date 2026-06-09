@@ -17,8 +17,7 @@
 
 ### Technical Highlights
 
-* Backend: Django, GraphQL (Graphene), Celery + RabbitMQ
-* Infra: AWS RDS (MySQL), Redis
+* Backend: Django, GraphQL (Graphene), Celery + RabbitMQ, MySQL, Redis
 * Frontend: Next.js, TypeScript, Tailwind
 
 ## Easethetics (Enterprise SaaS)
