@@ -8,7 +8,7 @@
 
 ### Key Contributions
 
-* **Built and owned Easebook**, a Next.js-based appointment booking system with dynamic shortlink routing, multi-step forms, and API integrations (REST + GraphQL)
+* **Built and managed Easebook**, a Next.js-based appointment booking system with dynamic shortlink routing, multi-step forms, and API integrations (REST + GraphQL)
 * Designed **end-to-end booking flow**, including patient validation, consent handling, and real-time availability
 * Improved **marketing campaign pipeline (SMS/email)** by fixing queue state inconsistencies and enhancing analytics accuracy
 * Collaborated on **GraphQL API design and integration** for mobile apps, improving data fetching efficiency
